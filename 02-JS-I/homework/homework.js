@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return str1.length === str2.length;
-}
+  }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -178,26 +178,26 @@ function esPositivo(numero) {
   }
 }
 
-function agregarSimboloExclamacion(str) {
+function agregarSimboloExclamacion(Hello Word) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + '!';
+  return Hello Word + '!';
 }
 
-function combinarNombres(nombre, apellido) {
+function combinarNombres(soy, soy henry) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre + ' ' + apellido;
+  var combinado = soy + ' ' + soy henry;
   return combinado 
 }
 
-function obtenerSaludo(kewin) {
+function obtenerSaludo(Martin) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola" + kewin + "!";
+  return "hola" + Martin + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -242,7 +242,7 @@ function esVocal(letra){
     return "es vocal"
   }
   return "dato incorrecto"
-  
+
 }
 
 
